@@ -1,0 +1,7 @@
+<launch>
+	<node name="Astar" pkg="RBE3002Code07" type="A_Star.py" args="" output="screen" />
+	<node name="navigate_map" pkg="RBE3002Code07" type="Navigate_Map.py" args="" output="screen" />
+	<node name="robot" pkg="RBE3002Code07" type="Robot.py" args="" output="screen" />
+	<!--node name="client" pkg="RBE3002Code07" type="client.py" args="" output="screen" /-->
+
+</launch>
